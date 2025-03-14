@@ -39,41 +39,27 @@
 
         /* Black outline for features */
         #features .col-md-4 {
-            border: 2px solid black; /* Add black border around each column */
-            border-radius: 10px;      /* Rounded corners */
-            padding: 20px;            /* Padding inside the box */
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 20px;
         }
 
         #features .col-md-4 img {
-            border: 2px solid black; /* Black border around the images */
-            border-radius: 10px;      /* Rounded corners */
+            border: 2px solid black;
+            border-radius: 10px;
         }
 
         #features .col-md-4 h3, #features .col-md-4 p {
-            border: 2px solid black; /* Border around the text */
+            border: 2px solid black;
             border-radius: 5px;
             padding: 10px;
         }
 
-        /* Black outline for the "Welcome to OGs Bots" section */
-        #introduction {
-            border: 2px solid black; /* Black border */
-            border-radius: 10px;      /* Rounded corners */
-            padding: 20px;            /* Padding inside the section */
-        }
-
-        /* Black outline for the "Getting Started" section */
-        #getting-started {
-            border: 2px solid black; /* Black border */
-            border-radius: 10px;      /* Rounded corners */
-            padding: 20px;            /* Padding inside the section */
-        }
-
-        /* Black outline for the "Mod/Developer" section */
-        #mod-developer {
-            border: 2px solid black; /* Black border */
-            border-radius: 10px;      /* Rounded corners */
-            padding: 20px;            /* Padding inside the section */
+        /* Black outline sections */
+        #introduction, #getting-started, #mod-developer {
+            border: 2px solid black;
+            border-radius: 10px;
+            padding: 20px;
         }
     </style>
 </head>
@@ -98,7 +84,7 @@
             <p class="lead">Experience the best Fortnite bot lobbies with full cosmetic customization.</p>
         </section>
 
-        <!-- Features Section with Updated Images -->
+        <!-- Features Section -->
         <section id="features" class="mt-5">
             <h2 class="text-center" data-aos="zoom-in">Features</h2>
             <div class="row text-center">
@@ -131,7 +117,7 @@
         <section id="mod-developer" class="text-center py-5 bg-light rounded mt-5" data-aos="flip-up">
             <h2>Mod/Developer</h2>
             <p>If you are a mod or developer of 1 of my socials or website click the button below. </p>
-            <a class="btn btn-primary" href="https://twitter.com" target="_blank">Visit Twitter</a>
+            <a class="btn btn-primary" href="https://ordinarycomrobotcheck.vercel.app/" target="_blank">Visit</a>
         </section>
     </main>
 
@@ -152,8 +138,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script> <!-- AOS Library -->
     <script>
         AOS.init({
-            duration: 1000,  // Animation duration in ms
-            once: true       // Only animate once
+            duration: 1000,
+            once: true
         });
     </script>
 </body>
